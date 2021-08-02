@@ -1,0 +1,24 @@
+.header {
+  margin: 0 auto;
+  width: 100%;
+  padding: 2rem;
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    a {
+      justify-content: space-between;
+      color: #000;
+      margin: 0 0.8rem;
+      font-size: 2rem;
+      text-decoration: none;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    .navbar {
+      justify-content: flex-end;
+    }
+  }
+}

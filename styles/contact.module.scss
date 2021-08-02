@@ -1,0 +1,53 @@
+.field {
+  label {
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+  }
+  input:not([type="submit"]),
+  textarea,
+  select {
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    background-color: #e1e1e1;
+    margin-bottom: 2rem;
+    border: none;
+
+  }
+  input[type="radio"] {
+    width: auto;
+    margin: 0;
+  }
+  select {
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  textarea {
+    height: 20rem;
+  }
+}
+
+.send {
+  display: flex;
+  .btn {
+    font-weight: 700;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 1rem;
+    text-decoration: none;
+    flex: 0 0 100%;
+  }
+  @media (min-width: 768px) {
+    .btn {
+      flex: 0 0 auto;
+    }
+  }
+  .btn:hover{
+    background-color: rgb(233, 233, 233);
+    cursor: pointer;
+  }
+}

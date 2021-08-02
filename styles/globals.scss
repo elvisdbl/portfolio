@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100&family=Sriracha&display=swap");
+/* 
+html{
+font-family: 'Sora', sans-serif;
+font-family: 'Sriracha', cursive;
+} */
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /** Reset para REMS - 62.5% = 10px de 16px **/
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Sriracha", cursive;
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+/** Globals **/
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3.8rem;
+}
+h2 {
+  font-size: 3.4rem;
+}
+h3 {
+  font-size: 3rem;
+}
+h4 {
+  font-size: 2.6rem;
+}
+
+.text-center {
+  text-align: center;
+  font-size: 4rem;
+  margin: 0.5rem auto;
+}
+
+.btn {
+  padding: 0.5rem 3rem;
+  background: #a6e773;
+  margin: 0 auto;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.6rem;
+  text-align: center;
+  font-family: "Sriracha", cursive;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #a5e773dc;
+  color: whitesmoke;
+}
+
+.try {
+  margin-top: 1rem;
+  display: flex;
+  .btn {
+    flex: 0 0 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .try {
+    display: flex;
+    .btn {
+      flex: 0 0 auto;
+    }
+  }
+}
+
+fieldset {
+  padding: 4rem;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+}
